@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.back-button {
+    transition: 0.3s;
+    display: inline-block;
+    background-color: rgb(255, 201, 37);
+    margin: 16px;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+.back-button:hover {
+    transition: 0.3s;
+    display: inline-block;
+    background-color:orange;
+    margin: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+.back-button:active {
+    display: inline-block;
+    background-color:rgb(190, 132, 24);
+    margin: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    scale: 95%;
+}
+
+.title {
+    text-align: center;
+    font-family: garamond, serif;
+    font-size: 32px;
+    font-weight: 1000;
+}
+
+.picture {
+   margin: 12px auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.desc {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+}
+
+.list-ingredients {
+    margin: 2px auto 8px auto;
+    background-color: rgba(255, 166, 0, 0.495);
+    padding: 4px 12px 12px 12px;
+    border-radius: 8px;
+    list-style: none;
+}
+.list-directions {
+    margin: 2px auto 8px auto;
+    background-color: rgba(255, 166, 0, 0.495);
+    padding: 4px 12px 12px 24px;
+    border-radius: 8px;
+    list-style: none;
+}
+h2 {
+    margin-top: 8px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    padding: 24px;
+    background-color: grey;
+    color: white;
+    margin-top: 24px;
+
+}
